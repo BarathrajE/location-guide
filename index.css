@@ -36,11 +36,11 @@
 
 }
 .red-icon{
-    width: 54px;
-    height: 38px !important;
+    width: 45px;
+    height: 35px !important;
     border-radius: 0 0 10px 0;
     background-color: #ff0000;
-    
+    margin-left: 50%;
 }
 .side-bar-icon{
     margin-left: 30%;
@@ -58,13 +58,55 @@
  height: 50vh;
 
 }
+.border-size{
+   height: 159px;
+}
+.bg-gray{
+    background-color: #d9d9d9;
+}
+.bg-blue{
+    background-color: #3b5998;
+}
+.bg-rose{
+    background-color: #e1306c;
+}
+.bg-skyblue{
+    background-color: #2877b5;
+}
+.bg-red{
+    background-color: #f00125;
+}
+.container-customize{
+    width: 85%;
+}
+.container-s{
+    width: 90%;
+}
+.border-radius{
+    border-radius: 20px !important;
+}
+.time{
+    background:linear-gradient(#ffe437,#fd881e);
+    height:170px;
+}
 
-.number-icon{
-   font-size: 100px;
-}
-.image-wrap{
-    object-fit: contain;
+swiper-container {
     width: 100%;
-    height: 100%;
+  }
+
+  swiper-slide {
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+
+.background-image{
+    background: url(assets/background-image.png) no-repeat center;
+    width: 100%;
+    height: 100vh;
 }
+
+
+
 
