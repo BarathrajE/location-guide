@@ -192,6 +192,7 @@ swiper-container {
   .camera{
     left: 30%;
     margin-top: 40px;
+
   }
   .image-icon{
     left: 40px;
@@ -211,6 +212,7 @@ swiper-container {
     top: 10px;
     padding: 9px 15px;
   }
+
   .gap{
     margin-top: 10%;
   }
@@ -218,16 +220,19 @@ swiper-container {
     background:linear-gradient(to left,rgba(255, 255, 255, 0.8), rgba(233, 233, 233, 0.4)) ,url("assets/last-image.png") no-repeat;
     background-size: cover;
     width: 100%;
-    height: 15vh;
-
+    min-height: 13vh;
   }
-  
-  /* .subscribe-section {
-    background: linear-gradient(to right, #3b5998, #192f6a); 
-    color: white;
+  .line:hover + .hover-line {
+    display: block;
+  }
+ .form-info{
+    z-index: 1;
+  }
+  .subscribe-section {
+    background: linear-gradient(to right, #3169e3, #2256e3); 
     padding: 50px;
-    z-index: 10;
-
+    border-radius: 20px;
+    bottom:60px;
   }
 .subscribe-section::before {
     content: "";
@@ -240,13 +245,7 @@ swiper-container {
     background-size: cover;
     opacity: 0.2;  
 }
-.subscribe-content {
-    z-index: 1;
-}
-.subscribe-form .btn:hover {
-    background: white;
-    color: black;
-} */
+
 
 /* .tcs-color{
     display: none;
